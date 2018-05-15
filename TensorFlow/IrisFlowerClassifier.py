@@ -3,9 +3,7 @@ import  numpy as np
 from sklearn.datasets import load_iris
 from sklearn import tree
 
-
-dict = {0:"setosa",1:"versicolor",2:"virginica"}
-
+#load data
 iris = load_iris()
 
 
