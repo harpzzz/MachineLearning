@@ -2,9 +2,8 @@
 import  numpy as np
 from sklearn.datasets import load_iris
 from sklearn import tree
+from sklearn.metrics import accuracy_score
 
-
-dict = {0:"setosa",1:"versicolor",2:"virginica"}
 
 iris = load_iris()
 
@@ -45,6 +44,11 @@ clf.fit(train_features,train_label)
 #test data
 print(test_label)
 
+
 # prediction result
 print(clf.predict(test_features))
+
+
+
+
 
